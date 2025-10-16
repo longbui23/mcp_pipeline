@@ -4,6 +4,7 @@ from airflow.operators.python import PythonOperator, BranchPythonOperator
 from airflow.utils.edgemodifier import Label
 
 import pendulum
+import pandas
 
 # Import your custom modules 
 try:

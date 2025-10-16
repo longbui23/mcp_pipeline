@@ -8,9 +8,6 @@ import os
 today = pendulum.now().to_date_string()
 
 
-# ------------------------
-# Helpers
-# ------------------------
 def update_health(health_report: dict, df: pd.DataFrame, symbol: str, dataset: str):
     """Aggregate health stats into the shared health report"""
     if df is None or df.empty:

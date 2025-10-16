@@ -1,0 +1,9 @@
+kafka-python==2.1.1
+Faker==23.3.0
+requests==2.31.0
+pandas==2.1.0
+boto3>=1.26.0,<1.28.0
+pyarrow==12.0.1
+influxdb_client
+influxdb_client
+pyflink
